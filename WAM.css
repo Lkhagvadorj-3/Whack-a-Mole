@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background {
+  background-image: url("./images/background.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.hole {
+  background-image: url("./images/hole.png");
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 108px;
+  position: relative;
+}
+.mole {
+  background-image: url("./images/mole.png");
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50px;
+  bottom: 25px;
+}
+#game-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  width: 650px;
+}
+#start-button {
+  width: 150px;
+  height: 60px;
+}
+#start-button:hover {
+  cursor: pointer;
+}
+#res-button {
+  width: 150px;
+  height: 60px;
+}
+#res-button:hover {
+  cursor: pointer;
+}
+#score {
+  font-size: 30px;
+  font-weight: 600;
+  color: blue;
+}
+#time {
+  font-size: 30px;
+  font-weight: 600;
+  color: blue;
+}
